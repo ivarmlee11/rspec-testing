@@ -7,7 +7,6 @@ class Tree
   end
 
   def grow_tree(water_amount)
-    @water_amount = water_amount
-    @height *= water_amount
+    @height += water_amount/10
   end
 end
